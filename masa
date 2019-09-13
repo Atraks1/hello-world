@@ -2,8 +2,12 @@ wagi = [33,55,88,99,123,456]
 
 def chudy():
     for kilo in wagi:
-        if int(kilo)<80:
-            print(kilo)
+        chude_typy = []
+        if kilo<80:
+            chude_typy.append(kilo)
+        return chude_typy
+        
+        
 def grubas():
     for kilo in wagi:
         if int(kilo)>80:
