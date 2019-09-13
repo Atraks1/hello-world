@@ -1,0 +1,25 @@
+wagi = [33,55,88,99,123,456]
+
+def chudy():
+    for kilo in wagi:
+        if int(kilo)<80:
+            print(kilo)
+def grubas():
+    for kilo in wagi:
+        if int(kilo)>80:
+            print(kilo)
+
+def przemas():
+    waga_max = 0
+    for x in wagi:
+        if x>waga_max:
+            waga_max = x
+    return waga_max
+
+print("Chude typy: ")
+print(chudy())
+
+print("Grube typy: ")
+print(grubas())
+print("Największa masa, czyli Przemasa:")
+print(przemas())
